@@ -1,15 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
-/*router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});*/
-
-// Get HelloWorld
+//sets router to respond to get requests on the main page by outputting the 'panelhomepage'
 router.get('/',function(req,res){
-	res.render('helloworld',{title:'Hello World'});
+	res.render('panelhomepage',{title:'Hello World'});
 });
 
-//the exports object that is sent over is the object router, which has a property called get
 module.exports = router;

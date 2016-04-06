@@ -1,0 +1,37 @@
+extends layout
+
+block content
+  h1 DM Panel
+  p This is an application that allows you to add cool and atmospheric music to your games
+  
+  br
+  
+  p 
+  b Select the mood that best fits the current events in your scenario to hear appropriate music
+  br
+  p Buttons labeled "Sustained music" are more appropriate to play at length
+  br
+ 
+  div(id="button-container")
+   
+  p Session Notes
+  input(type="text",name="sessionnotes",label="Session Notes1")
+  br
+  input(type="text",name="sessionnotes",label="Session Notes2")
+  br
+  br
+  button(type="button", value="music1") Stop current music
+  
+  br
+  br
+  p 
+  i Metaphorical tip jar (let me know how I can improve this or if there are songs you prefer for certain moods)  
+  br
+  input(type="text",name="sessionnotes",label="Session Notes1")
+  
+  br
+  p
+  i Literal tip jar  (if you like this panel, please provide a few dollars and ill make it better)
+  br
+  input(type="text",name="sessionnotes",label="Session Notes2")
+  
