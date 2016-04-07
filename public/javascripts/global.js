@@ -68,9 +68,10 @@ function each(collection,func){
 //object holding names of tracks and tracks; see readme at top
 dmpanelfunctionsandvalues.musicfiles = {
 	"Sustained music for cheery progress or ongoing activity":"fathersandsons.mp3",
-	"Sustained music for eerie investigation":"fathersandsons.mp3",
-	"Music for sudden danger":"fathersandsons.mp3",
-	"Music for emotional payoff":"luxaeterna.mp3"
+	"Sustained music for eerie investigation":"fireworkshungergames.mp3",
+	"Music for sudden danger":"trinitydream.mp3",
+	"Music for emotional payoff":"luxaeterna.mp3",
+	"Tavern music":"ConanTheology.mp3"
 }
 
 //plays music of filename attached to button
